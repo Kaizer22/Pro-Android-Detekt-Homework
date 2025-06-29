@@ -19,7 +19,7 @@ class SampleViewModel : ViewModel() {
         val globalScope = GlobalScope
         globalScope.launch {  }
         GlobalScope.async {
-            Log.d("TEST", "TEST")
+
         }
         coroutineScope {
 
